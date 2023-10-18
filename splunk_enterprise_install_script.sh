@@ -23,7 +23,7 @@ echo "Adding default Splunk Admin user and password"
 cat > /opt/splunk/etc/system/local/user-seed.conf << 'EOF'
 [user_info]
 USERNAME = admin
-PASSWORD = Goingin2@
+PASSWORD = Pngoingin2@
 EOF
 
 cat > /opt/splunk/etc/system/local/server.conf << 'EOF'
